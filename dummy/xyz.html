@@ -1,0 +1,119 @@
+
+<!doctype html>
+
+
+<html lang="en" >
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+
+<script type="text/javascript">
+    </script>
+
+<!-- <script src="background.js"></script> -->    <meta charset="utf-8">
+    <meta name="description" content="The Wild Ones(Hostel 2), IIT Bombay">
+    <meta name="author" content="Viswa Virinchi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/images/logo.jpg">
+    <title>Mess | Hostel 2 | IIT Bombay</title>
+
+    <!-- Page styles -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.css" media="screen,projection">
+    <link rel="stylesheet" href="../styles.css" media="screen,projection">
+    <!--<link rel="stylesheet" href="../css/materialize.css" media="screen,projection">-->
+
+    <!-- Basic stylesheet -->
+    <link rel="stylesheet" href="../owl-carousel/owl.carousel.css">
+
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="../owl-carousel/owl.theme.css">
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/pgwslideshow.css" rel="stylesheet">
+    <link href="../css/pgwslideshow_light.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<a name="top"></a>
+        <div class="mdl-grid" style="padding: 0px;">
+            <table class="mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--6-col-phone mdl-data-table mdl-js-data-table mdl-shadow--2dp" >
+               <!--  <script>function(id){
+    $.getJSON('https://gymkhana.iitb.ac.in/~hostel2/menu_js_ext.JSON', function (data)
+    var data1= data["SUNDAY"]["BREAKFAST"];
+    document.getElementById('testing').innerHtml=data1;
+)}
+    </script> -->
+
+                <thead>
+                <tr>
+                    <th class="mdl-data-table__cell--non-numeric">Day</th>
+                    <th class="mdl-data-table__cell--non-numeric">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Breakfast</th>
+                    <th class="mdl-data-table__cell--non-numeric">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lunch</th>
+                    <th class="mdl-data-table__cell--non-numeric">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiffin</th>
+                    <th class="mdl-data-table__cell--non-numeric">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dinner</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric"><div id="test"></div></td>
+                    <td class="testing" name="testing"  id="testing"></td>
+                    <td class="mdl-data-table__cell--non-numeric">ALU RASILA<br>GAJAR MATAR MASALA<br>STEAM RICE,<br> PULAVDAL TADKA,MASALA PAPAD<br>RASAM CURD<br>NIMBU PANI</td>
+                    <td class="mdl-data-table__cell--non-numeric">VEGETABLE CHEESE SANDWICH<br>FRUIT</td>
+                    <td class="mdl-data-table__cell--non-numeric">MALAI KOFTA<br>SOYA CHILLY<br>DAL FRY, MATAR PULAO,<br>STEAM RICE,<br>SWEET – SHAHI TUKDA<br>EXTRA – EGG CURRY</td>
+                </tr>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric" class="mdl-data-table__cell--non-numeric">Tuesday</td>
+                    <td class="mdl-data-table__cell--non-numeric">ALU METHI PARATHA<br>TAMATAR DHANIYA CHUTNEY, <br>CURD<br>BOILED GROUNDNUT<br>BOILED EGG/ BHURJI <br>CORNFLAKES</td>
+                    <td class="mdl-data-table__cell--non-numeric">RAJMA MASALA<br>PUMPKIN DRY<br>PLAIN RICE, MASOOR DAL,<br>VEG BIRYANI, BOONDI RAITA<br>ROASTED PAPAD</td>
+                    <td class="mdl-data-table__cell--non-numeric">MYSORE MASALA DOSA<br>COLD COFFEE(NO COLD MILK)<br>FRUIT</td>
+                    <td class="mdl-data-table__cell--non-numeric">PANEER BUTTER MASALA<br>PLAIN PARANTHA<br>STEAM RICE<br>TOMATO RICEDAL PUNJABI<br>SWEET – PEDA</td>
+                </tr>
+
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric" class="mdl-data-table__cell--non-numeric">Wednesday</td>
+                    <td class="mdl-data-table__cell--non-numeric">PURI BHAJI<br>BOILED CORN<br>BOILED EGG/BHURJI</td>
+                    <td class="mdl-data-table__cell--non-numeric">CHOLE BHATURE + ROTI<br>IMLI CHUTNI<br>JEERA RICE STEAM RICE<br>DAL PAPPU<br>FRYMES,<br>LASSI<br>SAMBHAR</td>
+                    <td class="mdl-data-table__cell--non-numeric">DHOKLA<br>PINEAPPLE JUICE<br>CHOCOS<br>JUICE</td>
+                    <td class="mdl-data-table__cell--non-numeric">KATHAL GRAVY<br>KURKURI BHINDI<br>STEAM RICE, LEMON RICE,<br> DAL TADKA<br>SWEET – ICE CREAM<br>EXTRA – MUGHLAI CHICKEN</td>
+                </tr>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric" class="mdl-data-table__cell--non-numeric">Thursday</td>
+                    <td class="mdl-data-table__cell--non-numeric">MEDU VADA<br>SAMBHAR, CHUTNEY<br>FRESH MATKI<br>BOILED EGG/ OMLET<br>CORNFLAKES</td>
+                    <td class="mdl-data-table__cell--non-numeric">LAUKI KOFTA<br>MAKAI LASUNI<br>STEAM RICE,<br>DAL PUNJABI<br>MASALA PAPAD,<br>CURD RICE<br>NIMBU PANI</td>
+                    <td class="mdl-data-table__cell--non-numeric">PASTA<br>PEANUT BUTTER<br>FRUIT</td>
+                    <td class="mdl-data-table__cell--non-numeric">PANEER KADHAI<br>HOT N SOUR SOUP<br>STEAM RICE, DAL AMRITSARIS<br>WEET – IMARTI</td>
+    </tr>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric" class="mdl-data-table__cell--non-numeric">Friday</td>
+         <!-- --> <td class="mdl-data-table__cell--non-numeric" id="testing">gobar khaoge</td> -->
+                    <td class="mdl-data-table__cell--non-numeric">BLACK CHANA GRAVY<br>BHINDI MASALA<br>FRYMES<br>STEAM RICE, KOLHAPURI PULAV<br>SAMBHAR CURD<br>NIMBU PANI</td>
+                    <td class="mdl-data-table__cell--non-numeric">PAV BHAJI<br>MILKSHAKE<br>(NO COLD MILK)<br>FRUIT</td>
+                    <td class="mdl-data-table__cell--non-numeric">ALU PALAK<br>GOBI CHILLI<br>MOONG DAL, JEERA RICE, PLAIN RICE<br>SWEET – FRUIT CUSTURD<br>EXTRA – CHICKEN BIRYANI</td>
+                </tr>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric" class="mdl-data-table__cell--non-numeric">Saturday</td>
+                    <td class="mdl-data-table__cell--non-numeric">IDLI<br>SAMBHAR, CHUTNEY<br>BOILED SPROUTS<br>BOILED EGG/ OMLET</td>
+                    <td class="mdl-data-table__cell--non-numeric">RAJMA MAKHANI<br>TURAI MASALAMETHI PURI + ROTI<br>TUR DAL,STEAM RICEFRYMES<br>SHRIKHAND</td>
+                    <td class="mdl-data-table__cell--non-numeric">KACHORI<br>CHOCOS<br>FRUIT</td>
+                    <td class="mdl-data-table__cell--non-numeric">VEG TIKKA MASALA<br>PANEER PARATHA, CURD<br>DAL FRY,STEAM RICE,<br>LEMON RICE<br>SWEET – SEVAIYA KHEER</td>
+                </tr>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric" class="mdl-data-table__cell--non-numeric">Sunday</td>
+                    <td class="mdl-data-table__cell--non-numeric">GOBHI PARATHA<br>TAMATAR-DHANIYA<br>CHUTNEY, CURD<br>BOILED CORN<br>BOILED EGG/BURJI<br> CORNFLAKES</td>
+                    <td class="mdl-data-table__cell--non-numeric">KADI PAKODA<br>ALOO GOBHI<br>DAL KHICHDI<br>STEAM RICEROASTED PAPAD<br>BUTTERMILK<br>RASAM</td>
+                    <td class="mdl-data-table__cell--non-numeric">BHEL PURI<br>PEANUT BUTTERFRUIT</td>
+                    <td class="mdl-data-table__cell--non-numeric">METHI MATAR MALAI<br>VEG TAWA DRY<br>DAL MAKHNI ,VEG FRIED RICE, <br>STREAM RICE<br>SWEET – BESAN BARFI<br>EXTRA – CHICKEN ROGANJOSH</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+            </body>
+            </html>
+
+            

@@ -1,0 +1,31 @@
+{
+  "manifest_version":2 ,
+
+  "name": "Hostel2_dummy",
+  	
+
+  "background": {
+    
+     "persistent": true,
+    "page":"background.html"
+  },
+
+
+  "browser_action":
+  {
+    "default_popup": "popupnew.html",
+    "default_icon": "2-17.png",
+    "default_title": "Hostel 2"
+    
+  },
+  
+ "version": "1.1",
+   "permissions": [
+   	"notifications",
+   	"https://gymkhana.iitb.ac.in/~hostel2/menu_js_ext.JSON",
+    "https://gymkhana.iitb.ac.in/~hostel2/menu_html_ext.JSON",
+    "<all_urls>"
+  ]  
+    
+  
+}

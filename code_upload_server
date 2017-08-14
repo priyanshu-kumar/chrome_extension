@@ -1,0 +1,11 @@
+	pscp C:\localhost\menu_app.json hostel2@10.105.177.2:/home/hostel2/public_html
+	pscp C:\web_nom ugacademics@10.105.177.3:/home/ugacademics/public_html
+
+pscp -pw ugcat123 ugacademics@10.105.177.3:/home/ugacademics/public_html/surp/* c:\web_nom
+
+
+then enter your password.
+
+Then jump from balcony. 
+
+Cheers!
